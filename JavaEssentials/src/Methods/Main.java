@@ -5,7 +5,7 @@ public class Main {
             System.out.println("Hello from a method!");
         }
 
-        static int add(int a, int b) {
+        static int add(int a, int b) {                         // initializing Method
             return a + b;
         }
 
