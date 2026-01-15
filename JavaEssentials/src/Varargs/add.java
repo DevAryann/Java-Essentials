@@ -3,11 +3,11 @@ package Varargs;
 public class add {
 
     public static void main(String[] args) {
-        System.out.println(add(1, 2, 3));
+        System.out.println(Add(1, 2, 3));
 
     }
 
-    static int add(int... numbers) {
+    static int Add(int... numbers) {           //    ellipsis
 
         int sum = 0;
 
